@@ -18,15 +18,15 @@ However, real pump performance curves deviate from a perfect parabola due
 to non-ideal effects such as hydraulic losses, leakage flow, internal
 recirculation, and other mechanical and fluid-dynamic effects.
 
-A degree-3 polynomial was selected as the default approximation after
-comparing polynomial degrees 2, 3, and 4 on real digitized catalog data.
-Degree 3 provided a meaningful reduction in fitting error compared to
-degree 2 while avoiding the unnecessary flexibility and potential
-overfitting of higher-degree polynomials.
+Polynomial degrees 2, 3, and higher can be evaluated depending on the
+specific curve. Degree 3 is used as the default fitting option because it
+provided a good balance between fitting accuracy and model complexity when
+compared with degree 2 and degree 4 fits on representative digitized
+catalog curves.
 
-The polynomial degree can be changed with --degree to evaluate different
-fits for specific pump curves, since curvature may vary between models
-and impeller diameters.
+For batch processing, batch_fit.py applies a model selection strategy:
+it selects the lowest polynomial degree that reaches the required R²
+threshold, preferring simpler models to avoid fitting digitization noise.
 
 This module contains no embedded catalog data. The original digitized
 points are stored externally in data/raw_curves/ and are not versioned in
