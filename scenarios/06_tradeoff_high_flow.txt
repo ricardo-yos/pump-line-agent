@@ -1,0 +1,1 @@
+Static head 12m, flow 45 m3/h, suction 8m long, discharge 120m long, pump is 4m above the source water level. Recommend pipe sizes and a pump, and tell me if I need a bigger suction pipe for NPSH.

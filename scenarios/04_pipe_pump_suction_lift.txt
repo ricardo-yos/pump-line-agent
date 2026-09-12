@@ -1,0 +1,1 @@
+Same system: static head 10m, flow 10 m3/h, suction 5m, discharge 30m -- but the pump sits 2m above the source reservoir's water level. Check whether NPSH is still acceptable.

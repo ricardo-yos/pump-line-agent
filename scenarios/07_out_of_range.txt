@@ -1,0 +1,1 @@
+Q=15 m3/h, H=25 m, but available NPSH is only 1m.
