@@ -1,7 +1,6 @@
 # Digitized manufacturer catalog source data
 # Keep source files under version control for this repository
 data/raw_curves/
-fit_results.json
 catalog_entries_draft.py
 
 # Runtime artifacts (generated during execution, not source files)
