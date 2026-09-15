@@ -262,7 +262,7 @@ covering:
 * pump/pipe trade-offs at higher flow;
 * an infeasible pump-only request.
 
-The corresponding execution examples are documented in `EXAMPLES.md`.
+The corresponding execution examples are documented in [`EXAMPLES.md`](EXAMPLES.md).
 
 These scenarios are manual regression experiments rather than an
 automated test suite. Each scenario is run independently from a fresh
@@ -355,7 +355,7 @@ copyrighted manufacturer documents.
 ### Code and third-party data
 
 The project's source code is licensed under the license specified in
-`LICENSE`.
+[`LICENSE`](LICENSE).
 
 Manufacturer names, trademarks, technical documents, and source data
 remain the property of their respective owners. Their identification in
